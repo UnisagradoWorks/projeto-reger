@@ -1,0 +1,124 @@
+@import '../../../../index.scss';
+
+#Sobre
+{
+    height: 0px;
+
+    @include all
+    {
+        margin-bottom: -50px;
+    }
+
+    @include md
+    {
+
+        margin-bottom: 155px;
+    }
+}
+
+#sobre
+{
+
+
+    @include all
+    {
+        margin-top: 120px;
+
+
+        #carrossel
+        {
+            display: block;
+            margin-top: 30px;
+            width: 95vw;
+            align-self: center;
+
+            .carousel
+            {
+                border-radius: 10px;
+            }
+        }
+
+        #txtSobre
+        {
+            span
+            {
+                color: #75BF7A;
+                font-weight: 100;
+            }
+
+            h1
+            {
+                font-weight: 900;
+                text-align: center;
+            }
+
+            p
+            {
+                color: #9E9DA2;
+                text-align: center;
+                padding: 0px 3vw;
+            }
+        }
+
+        #imgSobre
+        {
+            display: flex;
+            flex-direction: column;
+
+            img
+            {
+                width: 100%;
+                max-width: 400px;
+                margin-top: 30px;
+                padding: 0 3vw;
+                align-self: center;
+            }
+
+
+        }
+
+        .lixoDesktop
+        {
+            display: none;
+        }
+    }
+
+    @include md
+    {
+
+        #carrossel
+        {
+            display: none;
+        }
+
+        #txtSobre
+        {
+            h1
+            {
+                font-size: 24px;
+            }
+
+        }
+
+        .lixoDesktop
+        {
+            display: block;
+        }
+
+        #imgSobre
+        {
+            display: flex;
+            flex-direction: column;
+
+            img
+            {
+                width: 100%;
+                max-width: 70vw;
+                padding: 0px 3vw;
+                margin-top: 50px;
+            }
+
+
+        }
+    }
+}

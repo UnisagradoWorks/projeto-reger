@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+body {
+  background-color: #F9F9F9;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: auto;
+  list-style: none;
+  list-style-position: inside;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: #F9F9F9;
+  z-index: -10000000;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-betwen {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.font {
+  font-family: "Gafata", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#Sobre {
+  height: 0px;
+}
+@media (min-width: 0px) {
+  #Sobre {
+    margin-bottom: -50px;
+  }
+}
+@media (min-width: 768px) {
+  #Sobre {
+    margin-bottom: 155px;
+  }
+}
+
+@media (min-width: 0px) {
+  #sobre {
+    margin-top: 120px;
+  }
+  #sobre #carrossel {
+    display: block;
+    margin-top: 30px;
+    width: 95vw;
+    align-self: center;
+  }
+  #sobre #carrossel .carousel {
+    border-radius: 10px;
+  }
+  #sobre #txtSobre span {
+    color: #75BF7A;
+    font-weight: 100;
+  }
+  #sobre #txtSobre h1 {
+    font-weight: 900;
+    text-align: center;
+  }
+  #sobre #txtSobre p {
+    color: #9E9DA2;
+    text-align: center;
+    padding: 0px 3vw;
+  }
+  #sobre #imgSobre {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobre #imgSobre img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+    padding: 0 3vw;
+    align-self: center;
+  }
+  #sobre .lixoDesktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #sobre #carrossel {
+    display: none;
+  }
+  #sobre #txtSobre h1 {
+    font-size: 24px;
+  }
+  #sobre .lixoDesktop {
+    display: block;
+  }
+  #sobre #imgSobre {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobre #imgSobre img {
+    width: 100%;
+    max-width: 70vw;
+    padding: 0px 3vw;
+    margin-top: 50px;
+  }
+}

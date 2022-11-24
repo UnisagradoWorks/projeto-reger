@@ -1,0 +1,215 @@
+@import '../../../index.scss';
+
+footer
+{
+    background-color: #f9f9f9;
+    border: #ECECEC .5px solid;
+    width: 100vw;
+    position: absolute;
+    z-index: 3;
+
+
+    @include all
+    {
+        background-color: #f9f9f9;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        #redesFooter
+        {
+            margin-top: 30px;
+
+            > h3
+            {
+                text-align: center;
+            }
+
+            > div
+            {
+                margin-top: 10px;
+
+                img
+                {
+                    width: 100%;
+                    max-width: 49px;
+                    min-width: 20px;
+                    margin: 0px 11px
+                }
+            }
+        }
+
+        #orientadoFooter
+        {
+            margin-top: 30px;
+
+            > h3,
+            p
+            {
+                text-align: center;
+                font-weight: 100;
+            }
+
+            > a
+            {
+                display: flex;
+            }
+
+            img
+            {
+                display: inline;
+                width: 100%;
+                max-width: 25px;
+                max-height: 25px;
+                margin-right: 8px;
+                margin-top: auto;
+            }
+
+            p
+            {
+                margin-top: 10px;
+                color: #8B8BA5;
+                padding-bottom: 4.5px;
+            }
+
+        }
+
+        #desenvolvidoFooter
+        {
+            margin-top: 45px;
+
+            > div
+            {
+                margin-top: 10px;
+
+                > div > a
+                {
+                    display: flex;
+                    margin-top: 7px
+                }
+            }
+
+            > h3
+            {
+                text-align: center;
+                font-weight: 100;
+            }
+
+            img
+            {
+                margin-right: 15px;
+            }
+
+            p
+            {
+                color: #8B8BA5;
+                text-align: center;
+                font-weight: 100;
+            }
+        }
+
+        #uniLogoFooter
+        {
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+            img
+            {
+                width: 100%;
+                min-width: 150px;
+                max-width: 212px;
+            }
+        }
+
+    }
+
+    @include lg
+    {
+        margin-top: 0px;
+        flex-direction: row;
+        justify-content: space-between;
+
+        #redesFooter
+        {
+            flex: .9;
+
+            > h3
+            {
+                white-space: nowrap;
+            }
+
+            > div
+            {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        #orientadoFooter
+        {
+            flex: 1.1;
+
+            padding-bottom: 22px;
+
+
+            > h3,
+            > p
+            {
+                white-space: nowrap;
+            }
+
+            > p
+            {
+                margin-top: 10px;
+            }
+
+            a
+            {
+                white-space: nowrap;
+            }
+
+            h3
+            {
+                text-align: left;
+                padding-left: 40px;
+            }
+        }
+
+        #desenvolvidoFooter
+        {
+            flex: .9;
+            padding-bottom: 20px;
+
+            > h3
+            {
+                white-space: nowrap;
+                text-align: left;
+            }
+
+            > div > a
+            {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+
+                p
+                {
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        #uniLogoFooter
+        {
+            flex: 1;
+
+            img
+            {
+                width: 100%;
+                min-width: 150px;
+                max-width: 212px;
+            }
+
+        }
+    }
+}

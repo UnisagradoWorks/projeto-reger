@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+
+@mixin all
+{
+    @media(min-width: 0px)
+    {
+        @content;
+    }
+}
+
+@mixin xsm
+{
+    @media (max-width: 576px)
+    {
+        @content;
+    }
+}
+
+@mixin sm
+{
+    @media (min-width: 577px)
+    {
+        @content;
+    }
+}
+
+@mixin md
+{
+    @media (min-width: 768px)
+    {
+        @content;
+    }
+}
+
+@mixin lg
+{
+    @media (min-width: 992px)
+    {
+        @content;
+    }
+}
+
+@mixin xl
+{
+    @media (min-width: 1200px)
+    {
+        @content;
+    }
+}
+
+@mixin xxl
+{
+    @media (min-width:1400px)
+    {
+        @content
+    }
+}
+
+body
+{
+    background-color: #F9F9F9;
+    overflow-x: hidden;
+}
+
+*
+{
+    margin: 0;
+    padding: auto;
+    list-style: none;
+    list-style-position: inside;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section
+{
+    width: 100%;
+    background-color: #F9F9F9;
+    z-index: -10000000;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.space-betwen
+{
+    justify-content: space-between;
+}
+
+.column
+{
+
+    flex-direction: column;
+}
+
+.space-around
+{
+    justify-content: space-around;
+}
+
+.font
+{
+    font-family: 'Gafata', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}

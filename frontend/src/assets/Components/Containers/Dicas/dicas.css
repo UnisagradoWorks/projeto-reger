@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+body {
+  background-color: #F9F9F9;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: auto;
+  list-style: none;
+  list-style-position: inside;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: #F9F9F9;
+  z-index: -10000000;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-betwen {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.font {
+  font-family: "Gafata", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 0px) {
+  #Dicas {
+    padding-top: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #Dicas {
+    margin-top: 155px;
+  }
+}
+
+@media (min-width: 0px) {
+  #dicas {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #dicas #Sobre {
+    position: absolute;
+    bottom: 125px;
+  }
+  #dicas #ItemsDicas {
+    display: flex;
+    flex-direction: column;
+  }
+  #dicas #titleDicas {
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    max-width: 90vw;
+    margin-bottom: 20px;
+  }
+  #dicas #titleDicas > p {
+    color: #9E9DA2;
+  }
+  #dicas #titleDicas span {
+    color: #75BF7A;
+  }
+  #dicas #items1,
+#dicas #items2 {
+    flex-direction: column;
+  }
+  #dicas #item1Dicas,
+#dicas #item2Dicas,
+#dicas #item3Dicas,
+#dicas #item4Dicas {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 90vw;
+    text-align: center;
+    align-self: center;
+  }
+  #dicas #item1Dicas > h2,
+#dicas #item2Dicas > h2,
+#dicas #item3Dicas > h2,
+#dicas #item4Dicas > h2 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+  #dicas #item1Dicas > p,
+#dicas #item2Dicas > p,
+#dicas #item3Dicas > p,
+#dicas #item4Dicas > p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #9E9DA2;
+  }
+  #dicas #item4Dicas p > img {
+    width: 20px;
+  }
+  #dicas #celularDicas {
+    margin-top: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #dicas #celularDicas > img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 400px;
+  }
+  #dicas #celularDesktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #dicas {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  #dicas > #itemsDicas {
+    display: flex;
+    flex-direction: row;
+  }
+  #dicas #items1,
+#dicas #items2 {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  #dicas #celularDicas {
+    display: none;
+  }
+  #dicas #celularDesktop {
+    display: block;
+    margin-top: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #dicas #celularDesktop > img {
+    margin: 0px 0px;
+    width: 100%;
+    max-width: 270px;
+    max-height: auto;
+  }
+  #dicas #item1Dicas,
+#dicas #item2Dicas,
+#dicas #item3Dicas,
+#dicas #item4Dicas,
+#dicas #item1Dicas {
+    padding-top: 35px;
+    margin: 0px 10vw;
+    width: 100%;
+    max-width: 20vw;
+  }
+  #dicas #item1Dicas > h2,
+#dicas #item2Dicas > h2,
+#dicas #item3Dicas > h2,
+#dicas #item4Dicas > h2,
+#dicas #item1Dicas > h2 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+  #dicas #item1Dicas > p,
+#dicas #item2Dicas > p,
+#dicas #item3Dicas > p,
+#dicas #item4Dicas > p,
+#dicas #item1Dicas > p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #9E9DA2;
+  }
+  #dicas #item4Dicas {
+    padding-top: 71px;
+  }
+}

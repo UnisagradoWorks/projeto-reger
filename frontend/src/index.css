@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+body {
+  background-color: #F9F9F9;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: auto;
+  list-style: none;
+  list-style-position: inside;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: #F9F9F9;
+  z-index: -10000000;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-betwen {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.font {
+  font-family: "Gafata", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,190 @@
+@import '../../../../index.scss';
+
+#Projeto
+{
+    @include all
+    {
+        margin-bottom: 100px;
+    }
+
+    @include md
+    {
+
+        margin-bottom: -50px;
+    }
+
+
+}
+
+#projeto
+{
+
+    @include all
+    {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+
+        #ItemsProjeto
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #titleProjeto
+        {
+            font-weight: 100;
+            text-align: center;
+            width: 100%;
+            max-width: 90vw;
+            margin-bottom: 20px;
+
+            > p
+            {
+                color: #9E9DA2;
+            }
+
+            span
+            {
+                color: #75BF7A;
+            }
+        }
+
+        #items1,
+        #items2
+        {
+            flex-direction: column;
+        }
+
+        #item1Projeto,
+        #item2Projeto,
+        #item3Projeto,
+        #item4Projeto
+        {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 90vw;
+            text-align: center;
+            align-self: center;
+
+            > h2
+            {
+                font-size: 20px;
+                font-weight: 100;
+
+            }
+
+            > p
+            {
+                font-size: 16px;
+                font-weight: 100;
+                color: #9E9DA2;
+            }
+        }
+
+        #item4Projeto
+        {
+
+            p > img
+            {
+                width: 20px;
+            }
+        }
+
+        #celularProjeto
+        {
+            margin-top: 30px;
+            width: fit-content;
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+            > img
+            {
+                width: 100%;
+                max-width: 300px;
+                max-height: 400px;
+
+            }
+        }
+
+        #celularDesktop
+        {
+            display: none;
+        }
+
+
+    }
+
+    @include md
+    {
+        margin-top: 80px;
+
+        > #itemsProjeto
+        {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        #items1,
+        #items2
+        {
+            flex-direction: column;
+            margin-top: 30px
+        }
+
+        #celularProjeto
+        {
+            display: none;
+        }
+
+        #celularDesktop
+        {
+            display: block;
+            margin-top: 30px;
+            width: fit-content;
+
+            > img
+            {
+                margin: 0px 0px;
+                width: 100%;
+                max-width: 270px;
+                max-height: auto;
+            }
+        }
+
+
+        #item1Projeto,
+        #item2Projeto,
+        #item3Projeto,
+        #item4Projeto,
+        #item1Projeto
+        {
+            padding-top: 35px;
+            margin: 0px 10vw;
+            width: 100%;
+            max-width: 20vw;
+
+            > h2
+            {
+                font-size: 20px;
+                font-weight: 100;
+
+            }
+
+            > p
+            {
+                font-size: 16px;
+                font-weight: 100;
+                color: #9E9DA2;
+            }
+        }
+
+        #item4Projeto
+        {
+            padding-top: 53px;
+        }
+    }
+}

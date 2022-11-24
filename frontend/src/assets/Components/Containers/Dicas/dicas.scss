@@ -1,0 +1,197 @@
+@import '../../../../index.scss';
+
+#Dicas
+{
+    @include all
+    {
+        padding-top: 20px;
+    }
+
+    @include md
+    {
+        margin-top: 155px;
+
+    }
+}
+
+#dicas
+{
+
+    @include all
+    {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+
+
+        #Sobre
+        {
+
+            position: absolute;
+            bottom: 125px;
+        }
+
+        #ItemsDicas
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #titleDicas
+        {
+            font-weight: 100;
+            text-align: center;
+            width: 100%;
+            max-width: 90vw;
+            margin-bottom: 20px;
+
+            > p
+            {
+                color: #9E9DA2;
+            }
+
+            span
+            {
+                color: #75BF7A;
+            }
+        }
+
+        #items1,
+        #items2
+        {
+            flex-direction: column;
+        }
+
+        #item1Dicas,
+        #item2Dicas,
+        #item3Dicas,
+        #item4Dicas
+        {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 90vw;
+            text-align: center;
+            align-self: center;
+
+            > h2
+            {
+                font-size: 20px;
+                font-weight: 100;
+
+            }
+
+            > p
+            {
+                font-size: 16px;
+                font-weight: 100;
+                color: #9E9DA2;
+            }
+        }
+
+        #item4Dicas
+        {
+
+            p > img
+            {
+                width: 20px;
+            }
+        }
+
+        #celularDicas
+        {
+            margin-top: 30px;
+            width: fit-content;
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+            > img
+            {
+                width: 100%;
+                max-width: 300px;
+                max-height: 400px;
+
+            }
+        }
+
+        #celularDesktop
+        {
+            display: none;
+        }
+
+
+    }
+
+    @include md
+    {
+        margin-top: 80px;
+        margin-bottom: 100px;
+
+        > #itemsDicas
+        {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        #items1,
+        #items2
+        {
+            flex-direction: column;
+            margin-top: 30px
+        }
+
+        #celularDicas
+        {
+            display: none;
+        }
+
+        #celularDesktop
+        {
+            display: block;
+            margin-top: 30px;
+            width: fit-content;
+
+            > img
+            {
+                margin: 0px 0px;
+                width: 100%;
+                max-width: 270px;
+                max-height: auto;
+            }
+        }
+
+
+        #item1Dicas,
+        #item2Dicas,
+        #item3Dicas,
+        #item4Dicas,
+        #item1Dicas
+        {
+            padding-top: 35px;
+            margin: 0px 10vw;
+            width: 100%;
+            max-width: 20vw;
+
+            > h2
+            {
+                font-size: 20px;
+                font-weight: 100;
+
+            }
+
+            > p
+            {
+                font-size: 16px;
+                font-weight: 100;
+                color: #9E9DA2;
+            }
+        }
+
+        #item4Dicas
+        {
+            padding-top: 71px;
+        }
+    }
+}

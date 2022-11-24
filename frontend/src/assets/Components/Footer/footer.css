@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+body {
+  background-color: #F9F9F9;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: auto;
+  list-style: none;
+  list-style-position: inside;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: #F9F9F9;
+  z-index: -10000000;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-betwen {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.font {
+  font-family: "Gafata", sans-serif;
+}
+
+footer {
+  background-color: #f9f9f9;
+  border: #ECECEC 0.5px solid;
+  width: 100vw;
+  position: absolute;
+  z-index: 3;
+}
+@media (min-width: 0px) {
+  footer {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer #redesFooter {
+    margin-top: 30px;
+  }
+  footer #redesFooter > h3 {
+    text-align: center;
+  }
+  footer #redesFooter > div {
+    margin-top: 10px;
+  }
+  footer #redesFooter > div img {
+    width: 100%;
+    max-width: 49px;
+    min-width: 20px;
+    margin: 0px 11px;
+  }
+  footer #orientadoFooter {
+    margin-top: 30px;
+  }
+  footer #orientadoFooter > h3,
+footer #orientadoFooter p {
+    text-align: center;
+    font-weight: 100;
+  }
+  footer #orientadoFooter > a {
+    display: flex;
+  }
+  footer #orientadoFooter img {
+    display: inline;
+    width: 100%;
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 8px;
+    margin-top: auto;
+  }
+  footer #orientadoFooter p {
+    margin-top: 10px;
+    color: #8B8BA5;
+    padding-bottom: 4.5px;
+  }
+  footer #desenvolvidoFooter {
+    margin-top: 45px;
+  }
+  footer #desenvolvidoFooter > div {
+    margin-top: 10px;
+  }
+  footer #desenvolvidoFooter > div > div > a {
+    display: flex;
+    margin-top: 7px;
+  }
+  footer #desenvolvidoFooter > h3 {
+    text-align: center;
+    font-weight: 100;
+  }
+  footer #desenvolvidoFooter img {
+    margin-right: 15px;
+  }
+  footer #desenvolvidoFooter p {
+    color: #8B8BA5;
+    text-align: center;
+    font-weight: 100;
+  }
+  footer #uniLogoFooter {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  footer #uniLogoFooter img {
+    width: 100%;
+    min-width: 150px;
+    max-width: 212px;
+  }
+}
+@media (min-width: 992px) {
+  footer {
+    margin-top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer #redesFooter {
+    flex: 0.9;
+  }
+  footer #redesFooter > h3 {
+    white-space: nowrap;
+  }
+  footer #redesFooter > div {
+    display: flex;
+    justify-content: center;
+  }
+  footer #orientadoFooter {
+    flex: 1.1;
+    padding-bottom: 22px;
+  }
+  footer #orientadoFooter > h3,
+footer #orientadoFooter > p {
+    white-space: nowrap;
+  }
+  footer #orientadoFooter > p {
+    margin-top: 10px;
+  }
+  footer #orientadoFooter a {
+    white-space: nowrap;
+  }
+  footer #orientadoFooter h3 {
+    text-align: left;
+    padding-left: 40px;
+  }
+  footer #desenvolvidoFooter {
+    flex: 0.9;
+    padding-bottom: 20px;
+  }
+  footer #desenvolvidoFooter > h3 {
+    white-space: nowrap;
+    text-align: left;
+  }
+  footer #desenvolvidoFooter > div > a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  footer #desenvolvidoFooter > div > a p {
+    white-space: nowrap;
+  }
+  footer #uniLogoFooter {
+    flex: 1;
+  }
+  footer #uniLogoFooter img {
+    width: 100%;
+    min-width: 150px;
+    max-width: 212px;
+  }
+}
