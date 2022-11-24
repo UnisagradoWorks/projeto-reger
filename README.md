@@ -27,7 +27,7 @@
 O projeto tem como função reduzir o consumo de resíduos dentro do campus, assim incentivando o descarte correto. Dentro do projeto os descartes são feitos através dos lixos de recicláveis, orgânicos, de rejeitos, de medicamentos e de pilhas, fazendo com que os os mesmos sejam descartados adequadamente. Até o momento tivemos 189 pessoas atendidas de forma direta e 8340 atendimentos de forma indireta pelo projeto.
 
 
-## 💾 Tecnologias e ferramentas utilizadas
+## 💾 Tecnologias e ferramentas utilizadas:
 
 <table>
   <tbody>
