@@ -1,5 +1,5 @@
 <div align="center">
-   <img alt="Projeto Reger" src="https://github.com/LipeGabriell/projeto-reger-host/blob/main/frontend/src/assets/images/social/logo-reger.png" width="40%"/>
+   <img alt="Projeto Reger" src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/images/social/Logo%20Reger%20Readme.svg" width="40%"/>
 </div>
 <br/>
 <div align="center">
