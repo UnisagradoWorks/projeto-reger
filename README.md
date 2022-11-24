@@ -6,7 +6,6 @@
    <a href="https://github.com/UnisagradoWorks">
       <img alt="Made by UnisagradoWorks" src="https://img.shields.io/badge/made%20by-UnisagradoWorks-yellow">
    </a>
-   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/UnisagradoWorks/projeto-reger">
    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/UnisagradoWorks/projeto-reger">
    <a href="https://github.com/UnisagradoWorks/projeto-reger/commits/main">
       <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/UnisagradoWorks/projeto-reger">
@@ -18,7 +17,7 @@
 
 [**Sobre**](#-sobre) **|**
 [**Tecnologias e ferramentas utilizadas**](#-tecnologias-e-ferramentas-utilizadas) **|**
-[**Instalação**](%EF%B8%8F-instala%C3%A7%C3%A3o) **|**
+[**Instalação**](#%EF%B8%8F-instala%C3%A7%C3%A3o) **|**
 [**Desenvolvedores**](#-desenvolvedores)
 
 </div>
