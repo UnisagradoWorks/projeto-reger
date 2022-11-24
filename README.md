@@ -75,7 +75,7 @@ Para executar o projeto basta rodar o seguinte comando dentro da subpasta do pro
 ```bash
   yarn dev
 ```
-Caso ocorra algum erro com react-router-dom, use o comando a seguir na ubpasta do projeto (frontend):
+Caso ocorra algum erro com react-router-dom, use o comando a seguir na subpasta do projeto (frontend):
 ```bash
   npm install react-router-dom
 ```
