@@ -59,7 +59,7 @@ O projeto tem como função reduzir o consumo de resíduos dentro do campus, ass
 Para baixar o projeto, basta executar o seguinte comando:
 
 ```bash
-  git clone https://github.com/UnisagradoWorks/projeto-reger
+ git clone https://github.com/UnisagradoWorks/projeto-reger
 ```
 
 Para instalar as dependências e executar o projeto, instale o yarn:
