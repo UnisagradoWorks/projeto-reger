@@ -35,20 +35,6 @@ Versão Computador:
 
 <img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/web.png" alt="img web" />
 
-Versão Mobile:
-
-[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/home-mobile.png" align="left"
-width="200" height="400" hspace="7" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/home-mobile.png)
-[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/projeto-mobile.png" align="left"
-width="200" height="400" hspace="20" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/projeto-mobile.png)
-[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/sobrenos-mobile.png" align="left"
-width="200" height="400" hspace="20" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/sobrenos-mobile.png)
-[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/dicas-mobile.png" align="left"
-width="200" height="400" hspace="7" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/dicas-mobile.png) <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-
-
-
 ## 💾 Tecnologias e Ferramentas Utilizadas:
 
 <table>
