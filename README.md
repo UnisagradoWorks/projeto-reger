@@ -31,8 +31,6 @@ O projeto tem como função reduzir o consumo de resíduos dentro do campus, ass
 
 ## 🖼️ Screenshots:
 
-Versão Computador:
-
 <img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/web.png" alt="img web" />
 
 ## 💾 Tecnologias e Ferramentas Utilizadas:
