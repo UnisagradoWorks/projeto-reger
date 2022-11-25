@@ -122,12 +122,22 @@ html
         opacity: 1 !important;
     }
 
+    html:not(.no-js) [data-aos^=zoom][data-aos^=zoom]
+    {
+        opacity: 1 !important;
+    }
+
     html:not(.no-js) [data-aos=fade-left]
     {
         transform: none !important;
     }
 
     html:not(.no-js) [data-aos=fade-right]
+    {
+        transform: none !important;
+    }
+
+    html:not(.no-js) [data-aos=zoom-out]
     {
         transform: none !important;
     }

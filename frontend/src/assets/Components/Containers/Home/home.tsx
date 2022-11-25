@@ -8,7 +8,7 @@ function Home() {
         <>
             <section id='homeSection' className="flex font">
                 <div id='inicioHome'>
-                    <img id='trees' src={Trees} alt="" />
+                    <img id='trees' src={Trees} alt="Imagem árvore" />
                     <div className='flex column'>
                         <h1 className='font'>Projeto Reger</h1>
                         <p className='font'>Juntos por um mundo mais sustentável!</p>

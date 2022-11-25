@@ -50,10 +50,16 @@ html {
   html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
     opacity: 1 !important;
   }
+  html:not(.no-js) [data-aos^=zoom][data-aos^=zoom] {
+    opacity: 1 !important;
+  }
   html:not(.no-js) [data-aos=fade-left] {
     transform: none !important;
   }
   html:not(.no-js) [data-aos=fade-right] {
+    transform: none !important;
+  }
+  html:not(.no-js) [data-aos=zoom-out] {
     transform: none !important;
   }
 }
@@ -97,7 +103,7 @@ html {
   }
   #dicas p {
     align-self: center;
-    max-width: 20vw;
+    max-width: 80vw;
     text-align: center;
     height: -moz-fit-content;
     height: fit-content;
@@ -114,7 +120,7 @@ html {
   #dicas h2 {
     text-align: center;
     margin-bottom: -40px;
-    font-size: clamp(15px, 5vw, 100px) !important;
+    font-size: clamp(15px, 6vw, 100px) !important;
     color: black;
     font-weight: 100;
   }
