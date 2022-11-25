@@ -18,6 +18,7 @@
 <div align="center">
 
 [**Sobre**](#-sobre) **|**
+[**Screenshots**](#%EF%B8%8F-screenshots) **|**
 [**Tecnologias e ferramentas utilizadas**](#-tecnologias-e-ferramentas-utilizadas) **|**
 [**Instalação**](#%EF%B8%8F-instala%C3%A7%C3%A3o) **|**
 [**Desenvolvedores**](#-desenvolvedores)
@@ -28,8 +29,27 @@
 
 O projeto tem como função reduzir o consumo de resíduos dentro do campus, assim incentivando o descarte correto. Dentro do projeto os descartes são feitos através dos lixos de recicláveis, orgânicos, de rejeitos, de medicamentos e de pilhas, fazendo com que os os mesmos sejam descartados adequadamente. Até o momento tivemos 189 pessoas atendidas de forma direta e 8340 atendimentos de forma indireta pelo projeto.
 
+## 🖼️ Screenshots:
 
-## 💾 Tecnologias e ferramentas utilizadas:
+Versão Computador:
+
+<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/web.png" alt="img web" />
+
+Versão Mobile:
+
+[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/home-mobile.png" align="left"
+width="200" height="400" hspace="7" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/home-mobile.png)
+[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/projeto-mobile.png" align="left"
+width="200" height="400" hspace="20" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/projeto-mobile.png)
+[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/sobrenos-mobile.png" align="left"
+width="200" height="400" hspace="20" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/sobrenos-mobile.png)
+[<img src="https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/dicas-mobile.png" align="left"
+width="200" height="400" hspace="7" vspace="10">](https://github.com/UnisagradoWorks/projeto-reger/blob/main/frontend/src/assets/readme-images/dicas-mobile.png) <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+
+## 💾 Tecnologias e Ferramentas Utilizadas:
 
 <table>
   <tbody>
