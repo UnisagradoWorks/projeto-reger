@@ -2,7 +2,7 @@ import './navbar.css'
 import UnisagradoLogo from '../../images/social/usc-logo-preto.png'
 // import RegerLogo from '../../images/social/logo-reger.png'
 import BurguerMenu from '../../images/bars-solid.svg'
-import RegerLogo from '../../images/social/Logo-Reger.svg' 
+import RegerLogo from '../../images/social/Logo-Reger.svg'
 
 function Navbar() {
 

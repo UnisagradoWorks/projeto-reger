@@ -51,6 +51,12 @@
                 font-size: 34px;
                 font-weight: 300;
                 padding-top: 100px;
+
+                ~ p
+                {
+                    font-size: clamp(15px, 3vw, 22px);
+                    padding-top: 30px
+                }
             }
 
             h2
@@ -62,17 +68,6 @@
                 text-align: left;
             }
 
-            a
-            {
-                font-weight: 900;
-                color: black;
-                font-size: 25px;
-                background-color: rgb(117, 191, 122, .58);
-                border-radius: 30px;
-                width: fit-content;
-                padding: 10px 35px;
-                margin-top: 30px
-            }
         }
 
         #folhasHome

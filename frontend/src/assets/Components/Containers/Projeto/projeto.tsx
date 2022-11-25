@@ -12,7 +12,11 @@ import Localizacao from '../../../images/location.svg'
 
 
 function Projeto() {
-    AOS.init({ disable: 'mobile', });
+    AOS.init({
+        disable: window.innerWidth < 768
+    })
+
+
     return (
         <>
             <div id='Projeto'></div>

@@ -43,6 +43,20 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 800px) {
+  [data-aos] {
+    pointer-events: auto !important;
+  }
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+  }
+  html:not(.no-js) [data-aos=fade-left] {
+    transform: none !important;
+  }
+  html:not(.no-js) [data-aos=fade-right] {
+    transform: none !important;
+  }
+}
 @media (min-width: 0px) {
   #Projeto {
     position: absolute;
@@ -81,23 +95,16 @@ html {
     font-weight: 300;
     padding-top: 100px;
   }
+  #homeSection #inicioHome h1 ~ p {
+    font-size: clamp(15px, 3vw, 22px);
+    padding-top: 30px;
+  }
   #homeSection #inicioHome h2 {
     font-size: 18px;
     font-weight: 100;
     color: #9E9DA2;
     margin-top: 20px;
     text-align: left;
-  }
-  #homeSection #inicioHome a {
-    font-weight: 900;
-    color: black;
-    font-size: 25px;
-    background-color: rgba(117, 191, 122, 0.58);
-    border-radius: 30px;
-    width: -moz-fit-content;
-    width: fit-content;
-    padding: 10px 35px;
-    margin-top: 30px;
   }
   #homeSection #folhasHome {
     position: relative;

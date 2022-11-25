@@ -8,11 +8,6 @@ import Github from '../../images/social/github.svg'
 import Linkedin from '../../images/social/linkedin.png'
 
 function Footer() {
-
-    function subirTela() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
     return (
         <>
             <footer id='footer' className='font' >

@@ -12,7 +12,6 @@ function Home() {
                     <div className='flex column'>
                         <h1 className='font'>Projeto Reger</h1>
                         <p className='font'>Juntos para um mundo mais sustentável!</p>
-                        <a href=""><span>Sobre</span> nós</a>
                     </div>
                 </div>
                 <div id='folhasDiv'>
