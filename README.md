@@ -6,7 +6,9 @@
    <a href="https://github.com/UnisagradoWorks">
       <img alt="Made by UnisagradoWorks" src="https://img.shields.io/badge/made%20by-UnisagradoWorks-yellow">
    </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/UnisagradoWorks/projeto-reger">
+   <a href="https://github.com/UnisagradoWorks/projeto-reger/">
+      <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/UnisagradoWorks/projeto-reger">
+   </a>
    <a href="https://github.com/UnisagradoWorks/projeto-reger/commits/main">
       <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/UnisagradoWorks/projeto-reger">
    </a>
