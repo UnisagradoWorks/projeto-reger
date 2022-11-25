@@ -57,149 +57,109 @@ html {
     transform: none !important;
   }
 }
+#Dicas {
+  margin-top: 40px;
+}
 @media (min-width: 0px) {
   #Dicas {
-    padding-top: 20px;
+    font-size: clamp(16px, 2vw, 20px) !important;
+    display: flex;
+    flex-direction: column;
   }
-}
-@media (min-width: 768px) {
-  #Dicas {
-    margin-top: 155px;
-  }
-}
-
-@media (min-width: 0px) {
-  #dicas {
-    margin-top: 50px;
+  #Dicas #dicasMeio {
+    order: 1;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #dicas #Sobre {
-    position: absolute;
-    bottom: 125px;
+  #Dicas #dicasMeio > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
   }
-  #dicas #ItemsDicas {
+  #Dicas h3 {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 100;
+  }
+  #Dicas #dicasDireita {
+    order: 2;
+  }
+  #Dicas #dicasEsquerda {
+    order: 3;
+    margin-bottom: 100px;
+  }
+  #Dicas #dicasDireita,
+#Dicas #dicasEsquerda {
     display: flex;
     flex-direction: column;
   }
-  #dicas #titleDicas {
-    font-weight: 100;
+  #Dicas p {
+    align-self: center;
+    max-width: 20vw;
     text-align: center;
-    width: 100%;
-    max-width: 90vw;
-    margin-bottom: 20px;
-  }
-  #dicas #titleDicas > p {
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: clamp(15px, 1vw, 22px);
     color: #9E9DA2;
   }
-  #dicas #titleDicas span {
-    color: #75BF7A;
+  #Dicas img {
+    align-self: center;
+    width: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
-  #dicas #items1,
-#dicas #items2 {
-    flex-direction: column;
-  }
-  #dicas #item1Dicas,
-#dicas #item2Dicas,
-#dicas #item3Dicas,
-#dicas #item4Dicas {
-    margin-top: 30px;
-    width: 100%;
-    max-width: 90vw;
+  #Dicas h2 {
     text-align: center;
-    align-self: center;
-  }
-  #dicas #item1Dicas > h2,
-#dicas #item2Dicas > h2,
-#dicas #item3Dicas > h2,
-#dicas #item4Dicas > h2 {
-    font-size: 20px;
+    margin-bottom: -40px;
+    font-size: clamp(15px, 4vw, 100px);
+    color: black;
     font-weight: 100;
-  }
-  #dicas #item1Dicas > p,
-#dicas #item2Dicas > p,
-#dicas #item3Dicas > p,
-#dicas #item4Dicas > p {
-    font-size: 16px;
-    font-weight: 100;
-    color: #9E9DA2;
-  }
-  #dicas #item4Dicas p > img {
-    width: 20px;
-  }
-  #dicas #celularDicas {
-    margin-top: 30px;
-    width: -moz-fit-content;
-    width: fit-content;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  #dicas #celularDicas > img {
-    width: 100%;
-    max-width: 300px;
-    max-height: 400px;
-  }
-  #dicas #celularDesktop {
-    display: none;
   }
 }
 @media (min-width: 768px) {
-  #dicas {
-    margin-top: -40px;
+  #Dicas {
+    margin-top: 120px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 25%;
+  }
+  #Dicas h2 {
+    margin-bottom: 10px;
+  }
+  #Dicas p {
+    width: 100%;
+    max-width: 13vw;
+  }
+  #Dicas #dicasMeio {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+  }
+  #Dicas #dicasCima,
+#Dicas #dicasBaixo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #Dicas #dicasBaixo {
     margin-bottom: 100px;
   }
-  #dicas > #itemsDicas {
-    display: flex;
-    flex-direction: row;
+  #Dicas #dicasDireita {
+    margin-bottom: 41px;
   }
-  #dicas #items1,
-#dicas #items2 {
+  #Dicas #dicasEsquerda {
+    margin-bottom: 0px;
+  }
+  #Dicas #dicasCima {
+    padding-bottom: 120%;
+  }
+  #Dicas #dicasEsquerda,
+#Dicas #dicasDireita {
     flex-direction: column;
-    margin-top: 30px;
-  }
-  #dicas #celularDicas {
-    display: none;
-  }
-  #dicas #celularDesktop {
-    display: block;
-    margin-top: 30px;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  #dicas #celularDesktop > img {
-    margin: 0px 0px;
-    width: 100%;
-    max-width: 270px;
-  }
-  #dicas #item1Dicas,
-#dicas #item2Dicas,
-#dicas #item3Dicas,
-#dicas #item4Dicas,
-#dicas #item1Dicas {
-    padding-top: 35px;
-    margin: 0px 10vw;
-    width: 100%;
-    max-width: 25vw;
-    height: 250px;
-  }
-  #dicas #item1Dicas > h2,
-#dicas #item2Dicas > h2,
-#dicas #item3Dicas > h2,
-#dicas #item4Dicas > h2,
-#dicas #item1Dicas > h2 {
-    font-size: 20px;
-    font-weight: 100;
-  }
-  #dicas #item1Dicas > p,
-#dicas #item2Dicas > p,
-#dicas #item3Dicas > p,
-#dicas #item4Dicas > p,
-#dicas #item1Dicas > p {
-    font-size: 16px;
-    font-weight: 100;
-    color: #9E9DA2;
-    max-height: 200px;
+    justify-content: center;
+    order: 0;
   }
 }

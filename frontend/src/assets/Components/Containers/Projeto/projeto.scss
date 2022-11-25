@@ -21,6 +21,7 @@
 
     @include all
     {
+        font-size: clamp(16px, 2vw, 20px) !important;
         margin-top: 50px;
         flex-direction: column;
         align-items: center;
@@ -46,7 +47,14 @@
 
             span
             {
+                font-size: clamp(40px, 6vw, 100px);
                 color: #75BF7A;
+                font-weight: 100;
+
+                &:first-of-type
+                {
+                    color: black;
+                }
             }
         }
 

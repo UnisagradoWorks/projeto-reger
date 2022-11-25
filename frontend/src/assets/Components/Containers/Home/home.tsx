@@ -11,7 +11,7 @@ function Home() {
                     <img id='trees' src={Trees} alt="" />
                     <div className='flex column'>
                         <h1 className='font'>Projeto Reger</h1>
-                        <p className='font'>Juntos para um mundo mais sustentável!</p>
+                        <p className='font'>Juntos por um mundo mais sustentável!</p>
                     </div>
                 </div>
                 <div id='folhasDiv'>

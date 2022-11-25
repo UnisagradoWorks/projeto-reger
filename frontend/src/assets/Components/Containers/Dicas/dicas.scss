@@ -2,193 +2,151 @@
 
 #Dicas
 {
-    @include all
-    {
-        padding-top: 20px;
-    }
 
-    @include md
-    {
-        margin-top: 155px;
-
-    }
-}
-
-#dicas
-{
+    margin-top: 40px;
 
     @include all
     {
-        margin-top: 50px;
+        font-size: clamp(16px, 2vw, 20px) !important;
+        display: flex;
         flex-direction: column;
-        align-items: center;
 
-
-        #Sobre
+        #dicasMeio
         {
+            order: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-            position: absolute;
-            bottom: 125px;
+
+            > div
+            {
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+            }
         }
 
-        #ItemsDicas
+        h3
+        {
+            align-self: center;
+            text-align: center;
+            padding-bottom: 10px;
+            font-weight: 100;
+        }
+
+        #dicasDireita
+        {
+            order: 2;
+        }
+
+        #dicasEsquerda
+        {
+            order: 3;
+            margin-bottom: 100px;
+        }
+
+        #dicasDireita,
+        #dicasEsquerda
         {
             display: flex;
             flex-direction: column;
         }
 
-        #titleDicas
+        p
         {
+            align-self: center;
+            max-width: 20vw;
+            text-align: center;
+            height: fit-content;
+            text-align: center;
+            font-size: clamp(15px, 1vw, 22px);
+            color: #9E9DA2;
+
+        }
+
+        img
+        {
+            align-self: center;
+            width: 80px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        h2
+        {
+            text-align: center;
+            margin-bottom: -40px;
+            font-size: clamp(15px, 4vw, 100px);
+            color: black;
             font-weight: 100;
-            text-align: center;
-            width: 100%;
-            max-width: 90vw;
-            margin-bottom: 20px;
-
-            > p
-            {
-                color: #9E9DA2;
-            }
-
-            span
-            {
-                color: #75BF7A;
-            }
         }
-
-        #items1,
-        #items2
-        {
-            flex-direction: column;
-        }
-
-        #item1Dicas,
-        #item2Dicas,
-        #item3Dicas,
-        #item4Dicas
-        {
-            margin-top: 30px;
-            width: 100%;
-            max-width: 90vw;
-            text-align: center;
-            align-self: center;
-
-            > h2
-            {
-                font-size: 20px;
-                font-weight: 100;
-
-            }
-
-            > p
-            {
-                font-size: 16px;
-                font-weight: 100;
-                color: #9E9DA2;
-            }
-        }
-
-        #item4Dicas
-        {
-
-            p > img
-            {
-                width: 20px;
-            }
-        }
-
-        #celularDicas
-        {
-            margin-top: 30px;
-            width: fit-content;
-            align-self: center;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-
-            > img
-            {
-                width: 100%;
-                max-width: 300px;
-                max-height: 400px;
-
-            }
-        }
-
-        #celularDesktop
-        {
-            display: none;
-        }
-
-
     }
+
 
     @include md
     {
-        margin-top: -40px;
-        margin-bottom: 100px;
+        margin-top: 120px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 25%;
 
-        > #itemsDicas
+
+        h2
+        {
+            margin-bottom: 10px;
+        }
+
+        p
+        {
+            width: 100%;
+            max-width: 13vw;
+        }
+
+        #dicasMeio
         {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            order: 0;
+        }
+
+        #dicasCima,
+        #dicasBaixo
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
 
         }
 
-        #items1,
-        #items2
+        #dicasBaixo
+        {
+            margin-bottom: 100px;
+        }
+
+        #dicasDireita
+        {
+            margin-bottom: 41px;
+        }
+
+        #dicasEsquerda
+        {
+            margin-bottom: 0px;
+        }
+
+        #dicasCima
+        {
+            padding-bottom: 120%;
+        }
+
+        #dicasEsquerda,
+        #dicasDireita
         {
             flex-direction: column;
-            margin-top: 30px
+            justify-content: center;
+            order: 0;
         }
-
-        #celularDicas
-        {
-            display: none;
-        }
-
-        #celularDesktop
-        {
-            display: block;
-            margin-top: 30px;
-            width: fit-content;
-
-            > img
-            {
-                margin: 0px 0px;
-                width: 100%;
-                max-width: 270px;
-            }
-        }
-
-
-        #item1Dicas,
-        #item2Dicas,
-        #item3Dicas,
-        #item4Dicas,
-        #item1Dicas
-        {
-            padding-top: 35px;
-            margin: 0px 10vw;
-            width: 100%;
-            max-width: 25vw;
-            height: 250px;
-
-            > h2
-            {
-                font-size: 20px;
-                font-weight: 100;
-
-            }
-
-            > p
-            {
-                font-size: 16px;
-                font-weight: 100;
-                color: #9E9DA2;
-                max-height: 200px;
-            }
-        }
-
     }
+
+
 }

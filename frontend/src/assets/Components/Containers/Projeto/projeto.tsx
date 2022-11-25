@@ -23,7 +23,7 @@ function Projeto() {
             <section id='projeto' className='flex font'>
 
                 <div id='titleProjeto'>
-                    <h1>O <span>PROJETO</span></h1>
+                    <h1><span>O</span> <span>PROJETO</span></h1>
                 </div>
 
                 <div id='itemsProjeto'>
