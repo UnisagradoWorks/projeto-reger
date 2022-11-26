@@ -28,10 +28,8 @@ function Projeto() {
 
                 <div id='itemsProjeto'>
 
-                    <div id='celularProjeto'>{/*(celular)*/}
-
+                    <div id='celularProjeto'>
                         <img src={Celular} alt="Imagem celular" />
-
                     </div>
 
                     <div id='items1' className='flex'>
@@ -69,7 +67,7 @@ function Projeto() {
                         <div id='item4Projeto' data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">{/*(4)*/}
                             <img src={Num4} alt="círculo verde" />
                             <h2>ONDE ESTAMOS</h2>
-                            <p>R. Irmã Arminda, 10-50 <br /> - Jardim Brasil, Bauru - SP, <br /> 17011-160 <img id='locaPin' src={Localizacao} alt="Imagem localização" /></p>
+                            <a href='https://goo.gl/maps/kEXfcZpubQQ9aCve7' target='_blank' ><p>R. Irmã Arminda, 10-50 <br /> - Jardim Brasil, Bauru - SP, <br /> 17011-160 <img id='locaPin' src={Localizacao} alt="Imagem localização" /></p></a>
                         </div>
 
                     </div>

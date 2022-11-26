@@ -43,6 +43,26 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 800px) {
+  [data-aos] {
+    pointer-events: auto !important;
+  }
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+  }
+  html:not(.no-js) [data-aos^=zoom][data-aos^=zoom] {
+    opacity: 1 !important;
+  }
+  html:not(.no-js) [data-aos=fade-left] {
+    transform: none !important;
+  }
+  html:not(.no-js) [data-aos=fade-right] {
+    transform: none !important;
+  }
+  html:not(.no-js) [data-aos=zoom-out] {
+    transform: none !important;
+  }
+}
 #navbar {
   z-index: 4;
   background-color: rgba(255, 255, 255, 0.8823529412);
@@ -112,20 +132,6 @@ html {
     margin-top: 20px;
     display: block;
   }
-  #navbar #navItems.aberto > nav > a ::after {
-    content: "";
-    position: absolute;
-    bottom: 0.6rem;
-    left: 29%;
-    width: 0;
-    height: 0.2rem;
-    background: burlywood;
-    transition: all 0.3s ease-in-out;
-  }
-  #navbar #navItems.aberto > nav > a :hover:after {
-    width: 50px;
-    left: 25%;
-  }
   #navbar #navItems.aberto #unisagradoLogo {
     display: block;
   }
@@ -147,11 +153,34 @@ html {
     display: flex;
   }
   #navbar nav > a {
+    position: relative;
     text-decoration: none;
     color: black;
     display: block;
     white-space: nowrap;
     margin: auto 10px;
+    transition: all 0.5s;
+  }
+  #navbar nav > a:hover:after {
+    width: 90%;
+  }
+  #navbar nav > a:last-of-type:hover:after {
+    width: 0px;
+  }
+  #navbar nav > a::before, #navbar nav > a::after {
+    transition: all 0.5s;
+  }
+  #navbar nav > a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: " ";
+    color: transparent;
+    background: #75BF7A;
+    height: 2px;
   }
   #navbar #unisagradoLogo {
     display: block;
@@ -176,9 +205,6 @@ html {
   }
 }
 @media (min-width: 1400px) {
-  #navbar #unisagradoLogo {
-    margin-left: 30px;
-  }
   #navbar #regerLogo {
     width: 300px;
   }

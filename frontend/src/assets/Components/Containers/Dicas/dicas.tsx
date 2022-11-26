@@ -22,7 +22,7 @@ function Dicas() {
             <div id='Dicas'></div>
             <div id='dicas' className='flex font'>
 
-                <div data-aos-anchor-placement="bottom-top" data-aos-delay="850" data-aos="zoom-out" data-aos-mirror="true" id='dicasEsquerda' className='flex'>
+                <div data-aos-anchor-placement="center-top" data-aos-delay="850" data-aos="zoom-out" data-aos-mirror="true" id='dicasEsquerda' className='flex'>
                     <img src={Reciclar} alt="Ícone reclicar" />
                     <h3>RECICLAR</h3>
                     <p>Envolve a transformação dos materiais para a produção de matéria-prima para outros produtos por meio de processos industriais ou artesanais. É fabricar um produto a partir de um material usado.
@@ -38,7 +38,7 @@ function Dicas() {
                     </div>
 
 
-                    <div data-aos-anchor-placement="bottom-top" data-aos-delay="1050" data-aos="zoom-out" data-aos-mirror="true" id='dicasBaixo'>
+                    <div data-aos-anchor-placement="top-bottom" data-aos-delay="1150" data-aos="zoom-out" data-aos-mirror="true" id='dicasBaixo'>
                         <img src={Reduzir} alt="Ícone reduzir" />
                         <h3>REDUZIR</h3>
                         <p>Consumir menos produtos e preferir aqueles que ofereçam menor potencial de geração de resíduos e tenham maior durabilidade.</p>
@@ -47,7 +47,7 @@ function Dicas() {
 
                 </div>
 
-                <div data-aos-anchor-placement="bottom-top" data-aos-delay="1200" data-aos="zoom-out" data-aos-mirror="true" id='dicasDireita' className='flex'>
+                <div data-aos-anchor-placement="center-top" data-aos-delay="1200" data-aos="zoom-out" data-aos-mirror="true" id='dicasDireita' className='flex'>
                     <img src={Repensar} alt="Ícone repensar" />
                     <h3>REPENSAR</h3>
                     <p>Sobre os seus atos de consumo e os impactos que eles provocam sobre você mesmo, a economia, as relações sociais e a natureza.</p>

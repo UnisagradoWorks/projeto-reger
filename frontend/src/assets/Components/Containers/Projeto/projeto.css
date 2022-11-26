@@ -50,10 +50,16 @@ html {
   html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
     opacity: 1 !important;
   }
+  html:not(.no-js) [data-aos^=zoom][data-aos^=zoom] {
+    opacity: 1 !important;
+  }
   html:not(.no-js) [data-aos=fade-left] {
     transform: none !important;
   }
   html:not(.no-js) [data-aos=fade-right] {
+    transform: none !important;
+  }
+  html:not(.no-js) [data-aos=zoom-out] {
     transform: none !important;
   }
 }
@@ -118,10 +124,10 @@ html {
     font-size: 20px;
     font-weight: 100;
   }
-  #projeto #item1Projeto > p,
-#projeto #item2Projeto > p,
-#projeto #item3Projeto > p,
-#projeto #item4Projeto > p {
+  #projeto #item1Projeto p,
+#projeto #item2Projeto p,
+#projeto #item3Projeto p,
+#projeto #item4Projeto p {
     font-size: 16px;
     font-weight: 100;
     color: #9E9DA2;

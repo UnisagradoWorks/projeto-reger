@@ -100,23 +100,6 @@
                     margin-top: 20px;
                     display: block;
 
-                    ::after
-                    {
-                        content: "";
-                        position: absolute;
-                        bottom: .6rem;
-                        left: 29%;
-                        width: 0;
-                        height: .2rem;
-                        background: burlywood;
-                        transition: all .3s ease-in-out
-                    }
-
-                    :hover:after
-                    {
-                        width: 50px;
-                        left: 25%
-                    }
                 }
 
 
@@ -155,11 +138,43 @@
 
             > a
             {
+                position: relative;
                 text-decoration: none;
                 color: black;
                 display: block;
                 white-space: nowrap;
                 margin: auto 10px;
+                transition: all .5s;
+
+                &:hover:after
+                {
+                    width: 90%;
+                }
+
+                &:last-of-type:hover:after
+                {
+                    width: 0px;
+                }
+
+                &::before,
+                &::after
+                {
+                    transition: all .5s;
+                }
+
+                &:after
+                {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 0%;
+                    content: ' ';
+                    color: transparent;
+                    background: #75BF7A;
+                    height: 2px;
+                }
             }
         }
 
@@ -189,7 +204,6 @@
         {
             max-width: none;
             width: 175px;
-            ;
         }
 
 
@@ -208,9 +222,7 @@
     {
 
         #unisagradoLogo
-        {
-            margin-left: 30px;
-        }
+        {}
 
         #regerLogo
         {
